@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		8D5BA85420F1AA9E00EB4589 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5BA85320F1AA9E00EB4589 /* AppDelegate.swift */; };
-		8D5BA85620F1AA9E00EB4589 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5BA85520F1AA9E00EB4589 /* ViewController.swift */; };
-		8D5BA85920F1AA9E00EB4589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5BA85720F1AA9E00EB4589 /* Main.storyboard */; };
 		8D5BA85B20F1AA9E00EB4589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5BA85A20F1AA9E00EB4589 /* Assets.xcassets */; };
 		8D5BA85E20F1AA9E00EB4589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5BA85C20F1AA9E00EB4589 /* LaunchScreen.storyboard */; };
 		8D5BA86920F1AA9E00EB4589 /* ELM_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5BA86820F1AA9E00EB4589 /* ELM_ExampleTests.swift */; };
 		8D5BA87420F1AA9E00EB4589 /* ELM_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5BA87320F1AA9E00EB4589 /* ELM_ExampleUITests.swift */; };
+		8D5BA8D520F1AF9900EB4589 /* ELM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5BA8D620F1AF9900EB4589 /* ELM.framework */; };
+		8D5BA95220F1B69100EB4589 /* VirtualViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5BA95320F1B69100EB4589 /* VirtualViews.framework */; };
+		8D5BA95820F1B74200EB4589 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5BA95720F1B74200EB4589 /* Todo.swift */; };
+		8D5BA95A20F1B75E00EB4589 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5BA95920F1B75E00EB4589 /* List.swift */; };
+		8D5BA95C20F1B76E00EB4589 /* TodosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5BA95B20F1B76E00EB4589 /* TodosApp.swift */; };
+		8D5BA95F20F1B89200EB4589 /* EmptyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5BA95E20F1B89200EB4589 /* EmptyApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +40,6 @@
 /* Begin PBXFileReference section */
 		8D5BA85020F1AA9E00EB4589 /* ELM Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ELM Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5BA85320F1AA9E00EB4589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D5BA85520F1AA9E00EB4589 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8D5BA85820F1AA9E00EB4589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D5BA85A20F1AA9E00EB4589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D5BA85D20F1AA9E00EB4589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D5BA85F20F1AA9E00EB4589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,12 @@
 		8D5BA86F20F1AA9E00EB4589 /* ELM ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ELM ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5BA87320F1AA9E00EB4589 /* ELM_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELM_ExampleUITests.swift; sourceTree = "<group>"; };
 		8D5BA87520F1AA9E00EB4589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5BA8D620F1AF9900EB4589 /* ELM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ELM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5BA95320F1B69100EB4589 /* VirtualViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VirtualViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5BA95720F1B74200EB4589 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		8D5BA95920F1B75E00EB4589 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		8D5BA95B20F1B76E00EB4589 /* TodosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosApp.swift; sourceTree = "<group>"; };
+		8D5BA95E20F1B89200EB4589 /* EmptyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D5BA95220F1B69100EB4589 /* VirtualViews.framework in Frameworks */,
+				8D5BA8D520F1AF9900EB4589 /* ELM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +91,7 @@
 				8D5BA86720F1AA9E00EB4589 /* ELM ExampleTests */,
 				8D5BA87220F1AA9E00EB4589 /* ELM ExampleUITests */,
 				8D5BA85120F1AA9E00EB4589 /* Products */,
+				8D5BA8D420F1AF9900EB4589 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +108,9 @@
 		8D5BA85220F1AA9E00EB4589 /* ELM Example */ = {
 			isa = PBXGroup;
 			children = (
+				8D5BA95D20F1B88200EB4589 /* Empty */,
+				8D5BA95620F1B71A00EB4589 /* Todos */,
 				8D5BA85320F1AA9E00EB4589 /* AppDelegate.swift */,
-				8D5BA85520F1AA9E00EB4589 /* ViewController.swift */,
-				8D5BA85720F1AA9E00EB4589 /* Main.storyboard */,
 				8D5BA85A20F1AA9E00EB4589 /* Assets.xcassets */,
 				8D5BA85C20F1AA9E00EB4589 /* LaunchScreen.storyboard */,
 				8D5BA85F20F1AA9E00EB4589 /* Info.plist */,
@@ -123,6 +134,33 @@
 				8D5BA87520F1AA9E00EB4589 /* Info.plist */,
 			);
 			path = "ELM ExampleUITests";
+			sourceTree = "<group>";
+		};
+		8D5BA8D420F1AF9900EB4589 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D5BA95320F1B69100EB4589 /* VirtualViews.framework */,
+				8D5BA8D620F1AF9900EB4589 /* ELM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D5BA95620F1B71A00EB4589 /* Todos */ = {
+			isa = PBXGroup;
+			children = (
+				8D5BA95720F1B74200EB4589 /* Todo.swift */,
+				8D5BA95920F1B75E00EB4589 /* List.swift */,
+				8D5BA95B20F1B76E00EB4589 /* TodosApp.swift */,
+			);
+			path = Todos;
+			sourceTree = "<group>";
+		};
+		8D5BA95D20F1B88200EB4589 /* Empty */ = {
+			isa = PBXGroup;
+			children = (
+				8D5BA95E20F1B89200EB4589 /* EmptyApp.swift */,
+			);
+			path = Empty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +272,6 @@
 			files = (
 				8D5BA85E20F1AA9E00EB4589 /* LaunchScreen.storyboard in Resources */,
 				8D5BA85B20F1AA9E00EB4589 /* Assets.xcassets in Resources */,
-				8D5BA85920F1AA9E00EB4589 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5BA85620F1AA9E00EB4589 /* ViewController.swift in Sources */,
+				8D5BA95F20F1B89200EB4589 /* EmptyApp.swift in Sources */,
 				8D5BA85420F1AA9E00EB4589 /* AppDelegate.swift in Sources */,
+				8D5BA95C20F1B76E00EB4589 /* TodosApp.swift in Sources */,
+				8D5BA95A20F1B75E00EB4589 /* List.swift in Sources */,
+				8D5BA95820F1B74200EB4589 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +336,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8D5BA85720F1AA9E00EB4589 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D5BA85820F1AA9E00EB4589 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8D5BA85C20F1AA9E00EB4589 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

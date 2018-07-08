@@ -7,15 +7,20 @@
 //
 
 import UIKit
+import ELM
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let driver = Driver(TodosApp())
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = driver.viewController
+        window?.makeKeyAndVisible()
+        window?.backgroundColor = .white
         return true
     }
 
